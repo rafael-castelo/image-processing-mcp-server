@@ -90,8 +90,8 @@ This section details the image processing tools exposed by the MCP server, inclu
 
 *   `imagePath` (string, required): Absolute path to the image file to be resized.
 *   `outputPath` (string, required): Absolute path to save the resized image.
-*   `width` (number, optional): Resulting width of the image.
-*   `height` (number, optional): Resulting height of the image.
+*   `width` (number, optional): Resulting width of the image. Optional if height is provided.
+*   `height` (number, optional): Resulting height of the image. Optional if width is provided.
 *   `keepAspectRatio` (boolean, optional): Whether to keep the original aspect ratio (default: `false`).
 *   `quality` (number, optional): Compression quality (default: format standard, 1-100 for JPEG/WEBP, 0-9 for PNG).
 
@@ -118,7 +118,7 @@ This section details the image processing tools exposed by the MCP server, inclu
 
 ### `get-image-metadata`
 
-**Description:** Retrieves basic file information, dimensions, and technical details for a given image.
+**Description:** Retrieves basic file information, including file size, format, dimensions in pixels (width and height), resolution, color space (e.g., sRGB, CMYK) and orientation details for a given image.
 
 **Parameters:**
 
