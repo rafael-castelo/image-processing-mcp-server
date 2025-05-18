@@ -30,11 +30,7 @@ To set up the project locally, follow these steps:
     npm install
     ```
 
-## Usage
-
-This project runs as an MCP server that exposes image processing capabilities as tools. To use it, you need to:
-
-1. **Build:**
+4. **Build:**
 
     ```bash
     npm run build
@@ -42,10 +38,14 @@ This project runs as an MCP server that exposes image processing capabilities as
 
     This will generate a build of the server and save it on ./build
 
+## Usage
+
+
 ### Using from Cursor
 
 Add or merge the following configuration to the `mcpServers` object:
 
+NPX
     ```json
         {
             "mcpServers": {
@@ -54,6 +54,20 @@ Add or merge the following configuration to the `mcpServers` object:
                     "args": [
                         "-y",
                         "image-processing-mcp-server"
+                    ]
+                }
+            }
+        }
+    ```
+
+LOCAL
+    ```json
+        {
+            "mcpServers": {
+            "image-processing": {
+                    "command": "node",
+                    "args": [
+                        "path/to/mcp/server/build/index.js"
                     ]
                 }
             }
