@@ -46,33 +46,35 @@ To set up the project locally, follow these steps:
 Add or merge the following configuration to the `mcpServers` object:
 
 NPX
-    ```json
-        {
-            "mcpServers": {
-            "image-processing": {
-                    "command": "npx",
-                    "args": [
-                        "-y",
-                        "image-processing-mcp-server"
-                    ]
-                }
+
+```json
+    {
+        "mcpServers": {
+        "image-processing": {
+                "command": "npx",
+                "args": [
+                    "-y",
+                    "image-processing-mcp-server"
+                ]
             }
         }
-    ```
+    }
+```
 
 LOCAL
-    ```json
-        {
-            "mcpServers": {
-            "image-processing": {
-                    "command": "node",
-                    "args": [
-                        "path/to/mcp/server/build/index.js"
-                    ]
-                }
+
+```json
+    {
+        "mcpServers": {
+        "image-processing": {
+                "command": "node",
+                "args": [
+                    "path/to/mcp/server/build/index.js"
+                ]
             }
         }
-    ```
+    }
+```
 
 Once this configuration is in place and Cursor is running, it will automatically start the `image-processing` MCP server, making the tools available for use via tool calls in the chat or other Cursor features that interact with MCP.
 
