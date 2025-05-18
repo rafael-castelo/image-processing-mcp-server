@@ -20,7 +20,7 @@ To set up the project locally, follow these steps:
 2.  **Clone the Repository:**
 
     ```bash
-    git clone <repository_url>
+    git clone git@github.com:rafael-castelo/image-processing-mcp-server.git
     cd image-processing-mcp
     ```
 
