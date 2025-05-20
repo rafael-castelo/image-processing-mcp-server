@@ -4,6 +4,31 @@
 
 This project serves as an MCP (Model Context Protocol) server, offering a suite of tools for common image processing tasks. It enables applications and services, such as Cursor and Claude, to easily perform operations like resizing, compressing, and converting image formats directly within your IDE, streamlining your workflow without needing to switch contexts.
 
+## Example usage
+
+**Resize images in bulk:**
+
+Prompt:
+```
+Resize all images in `src/assets` folder to a height 
+of 150px, store the resulting images with the 
+`_small` suffix
+```
+
+**Convert images format:**
+
+Prompt:
+```
+Convert all images with the `.jpeg` extension located in the `/media` directory to the `webp` format. Save the converted images in the same directory.
+```
+
+**Compress large images:**
+
+Prompt:
+```
+Compress all images in the `/src/images` directory that have a file size larger than 10MB.
+```
+
 ## Features
 
 -   **Resize Images:** Adjust the dimensions of images.
