@@ -1,6 +1,6 @@
 {
   "name": "image-processing-mcp-server",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "Tools: - Get image details/info - Convert png to jpeg, web to png, etc - Crop - Resize - Compress",
   "type": "module",
   "bin": {
