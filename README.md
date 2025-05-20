@@ -10,16 +10,16 @@ This project serves as an MCP (Model Context Protocol) server, offering a suite 
 
 Prompt:
 ```
-Resize all images in `src/assets` folder to a height 
-of 150px, store the resulting images with the 
-`_small` suffix
+Resize all images in `src/assets` folder to a height of 150px,
+store the resulting images with the `_small` suffix
 ```
 
 **Convert images format:**
 
 Prompt:
 ```
-Convert all images with the `.jpeg` extension located in the `/media` directory to the `webp` format. Save the converted images in the same directory.
+Convert all images with the `.jpeg` extension located in the `/media` directory to the `webp` format.
+Save the converted images in the same directory.
 ```
 
 **Compress large images:**
