@@ -5,6 +5,7 @@
 This project serves as an MCP (Model Context Protocol) server, offering a suite of tools for common image processing tasks. It enables applications and services, such as Cursor and Claude, to easily perform operations like resizing, compressing, and converting image formats directly within your IDE, streamlining your workflow without needing to switch contexts.
 
 ## Example usage
+![Live example usage](https://i.imgur.com/Eny7edw.gif)
 
 **Resize images in bulk:**
 
